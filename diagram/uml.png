@@ -1,4 +1,4 @@
-%% PawPal+ class diagram (Mermaid)
+PawPal+ class diagram
 classDiagram
     class User {
         +String name

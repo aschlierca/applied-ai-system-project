@@ -1,0 +1,19 @@
+00:04:40 | pawpal_system          | INFO     | Added pet 'Bob' (id=1, species=dog)
+00:04:50 | pawpal_system          | DEBUG    | Added task 'Walk' (id=1) to pet 'Bob'
+00:04:50 | app                    | INFO     | Task 'Walk' added to Bob (priority=5, 20 min, cat=exercise)
+00:05:05 | pawpal_system          | INFO     | Generated schedule: 1 items in 20 min (of 60 available)
+00:05:05 | pawpal_system          | INFO     | ✓ No conflicts: Bob: 20 min | Total 20 min fits in 60 min
+00:05:14 | pawpal_system          | DEBUG    | Added task 'Walk' (id=2) to pet 'Bob'
+00:05:14 | app                    | INFO     | Task 'Walk' added to Bob (priority=5, 20 min, cat=exercise)
+00:06:28 | pawpal_system          | INFO     | Added pet 'Bella' (id=1, species=cat)
+00:06:38 | pawpal_system          | INFO     | Added pet 'Ellie' (id=2, species=cat)
+00:07:08 | pawpal_system          | DEBUG    | Added task 'Morning food' (id=1) to pet 'Bella'
+00:07:08 | app                    | INFO     | Task 'Morning food' added to Bella (priority=8, 10 min, cat=feeding)
+00:07:26 | pawpal_system          | DEBUG    | Added task 'Play time' (id=2) to pet 'Ellie'
+00:07:26 | app                    | INFO     | Task 'Play time' added to Ellie (priority=5, 20 min, cat=exercise)
+00:07:34 | pawpal_system          | INFO     | Generated schedule: 1 items in 10 min (of 60 available)
+00:07:34 | pawpal_system          | INFO     | ✓ No conflicts: Bella: 10 min | Ellie: 20 min | Total 30 min fits in 60 min
+00:08:04 | pawpal_system          | DEBUG    | Added task 'Play time' (id=3) to pet 'Bella'
+00:08:04 | app                    | INFO     | Task 'Play time' added to Bella (priority=5, 20 min, cat=exercise)
+00:08:33 | pawpal_system          | DEBUG    | Added task 'Breakfast' (id=4) to pet 'Ellie'
+00:08:33 | app                    | INFO     | Task 'Breakfast' added to Ellie (priority=5, 20 min, cat=feeding)

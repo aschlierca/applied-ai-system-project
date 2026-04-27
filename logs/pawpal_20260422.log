@@ -1,0 +1,42 @@
+22:22:32 | rag.retriever          | DEBUG    | Loaded 39 total chunks
+22:22:32 | rag.retriever          | INFO     | Retriever ready: 39 chunks from 3 document(s)
+22:22:32 | rag.retriever          | DEBUG    | Loaded 39 total chunks
+22:22:32 | rag.retriever          | INFO     | Retriever ready: 39 chunks from 3 document(s)
+22:22:32 | rag.retriever          | INFO     | Retrieved 3 chunks for query 'dog walk exercise' (top score: 2)
+22:22:32 | rag.retriever          | DEBUG    | Loaded 39 total chunks
+22:22:32 | rag.retriever          | INFO     | Retriever ready: 39 chunks from 3 document(s)
+22:22:32 | rag.retriever          | INFO     | Retrieved 3 chunks for query 'dog exercise walk daily' (top score: 3)
+22:22:32 | rag.retriever          | DEBUG    | Loaded 39 total chunks
+22:22:32 | rag.retriever          | INFO     | Retriever ready: 39 chunks from 3 document(s)
+22:22:32 | rag.retriever          | INFO     | Retrieved 3 chunks for query 'cat feeding nutrition water' (top score: 4)
+22:22:32 | rag.retriever          | DEBUG    | Loaded 39 total chunks
+22:22:32 | rag.retriever          | INFO     | Retriever ready: 39 chunks from 3 document(s)
+22:22:32 | rag.retriever          | WARNING  | Empty query passed to retriever; returning no chunks
+22:22:32 | rag.retriever          | WARNING  | Empty query passed to retriever; returning no chunks
+22:22:32 | rag.retriever          | DEBUG    | Loaded 39 total chunks
+22:22:32 | rag.retriever          | INFO     | Retriever ready: 39 chunks from 3 document(s)
+22:22:32 | rag.retriever          | INFO     | Retrieved 2 chunks for query 'pet care medication schedule' (top score: 4)
+22:22:32 | rag.retriever          | DEBUG    | Loaded 39 total chunks
+22:22:32 | rag.retriever          | INFO     | Retriever ready: 39 chunks from 3 document(s)
+22:22:32 | rag.retriever          | INFO     | Retrieved 1 chunks for query 'grooming brushing nails' (top score: 4)
+22:22:32 | guardrails             | ERROR    | Invalid duration value: 0
+22:22:32 | guardrails             | ERROR    | Invalid duration value: -5
+22:22:32 | guardrails             | ERROR    | Invalid duration value: 'thirty'
+22:22:32 | guardrails             | ERROR    | Invalid priority value: 11
+22:22:32 | guardrails             | ERROR    | Invalid priority value: 0
+22:22:32 | guardrails             | ERROR    | Invalid time format: '0830'
+22:22:32 | guardrails             | ERROR    | Invalid time format: '8:30'
+22:22:32 | guardrails             | ERROR    | Time values out of range: 25:00
+22:22:32 | guardrails             | ERROR    | Time values out of range: 12:60
+22:22:32 | guardrails             | ERROR    | Invalid time_available: 0
+22:22:32 | guardrails             | ERROR    | Empty pet name submitted
+22:22:32 | guardrails             | ERROR    | Empty pet name submitted
+22:24:32 | pawpal_system          | DEBUG    | Added task 'Walk' (id=2) to pet 'Fido'
+22:24:32 | pawpal_system          | DEBUG    | Added task 'Medicate' (id=1) to pet 'Spot'
+22:24:32 | pawpal_system          | DEBUG    | Added task 'Walk' (id=2) to pet 'Spot'
+22:24:32 | pawpal_system          | DEBUG    | Added task 'Groom' (id=3) to pet 'Spot'
+22:24:32 | pawpal_system          | DEBUG    | Added task 'Feed' (id=1) to pet 'Luna'
+22:24:32 | pawpal_system          | INFO     | Marked task 'Feed' complete for pet 'Luna'
+22:24:32 | pawpal_system          | DEBUG    | Added task 'Feed' (id=2) to pet 'Luna'
+22:24:32 | pawpal_system          | INFO     | Created next recurrence for 'Feed' (id=2, recurrence=daily)
+22:24:32 | pawpal_system          | WARNING  | Time conflict detected between 'A' and 'B'
